@@ -37,12 +37,15 @@ body {
 
 .output {
   grid-column: 1 / -1;
-  background-color: rgba(0, 0, 0, 0.75);
+  background-color: rgba(0, 0, 0, 0.438);
+  border: 1px solid purple;
   display: flex;
   align-items: flex-end;
   justify-content: space-around;
   flex-direction: column;
   padding: 10px;
+  font-size: 50px;
+  color: rgba(255, 255, 255, 0.8);
   word-wrap: break-word;
   word-break: break-all;
   border-radius: 25px;
